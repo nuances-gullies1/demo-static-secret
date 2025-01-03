@@ -23,7 +23,7 @@ jobs:
         static-secrets: |
           - name: "/my_first_secret"
             output-name: "my_first_secret"
-        api-url: "https://10.160.22.69/akeyless-api/v2/"
+        api-url: "https://csm.cplemeaps.com/akeyless-api/v2/"
 
     - name: Use Akeyless secret (environment variable)
       env:
